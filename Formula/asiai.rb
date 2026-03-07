@@ -3,8 +3,8 @@ class Asiai < Formula
 
   desc "Multi-engine LLM benchmark & monitoring CLI for Apple Silicon"
   homepage "https://github.com/druide67/asiai"
-  url "https://github.com/druide67/asiai/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "3c7e4477784d8d78cc9ef971ab38add8354836dfca9cb4d103c3bf7888c2f765"
+  url "https://files.pythonhosted.org/packages/source/a/asiai/asiai-0.5.1.tar.gz"
+  sha256 "e6fcad57421ab6bbd1a0b5547eeac11b704255da5e0090e4ea299276fbf8313c"
   license "Apache-2.0"
 
   depends_on "python@3.13"
@@ -15,6 +15,6 @@ class Asiai < Formula
   end
 
   test do
-    assert_match "asiai", shell_output("#{bin}/asiai --version")
+    assert_match version.to_s, shell_output("#{bin}/asiai --version")
   end
 end
