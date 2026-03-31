@@ -3,8 +3,8 @@ class Asiai < Formula
 
   desc "Multi-engine LLM benchmark & monitoring CLI for Apple Silicon"
   homepage "https://github.com/druide67/asiai"
-  url "https://files.pythonhosted.org/packages/e6/d2/45f803578bcc2ba2d4ca6312041a9d0c3090732746f8589562db2a68c44a/asiai-1.4.1.tar.gz"
-  sha256 "956d67fcbda18531f937bfec644aa678112ff6492dbea095798e8546314e8ea5"
+  url "https://files.pythonhosted.org/packages/10/72/56aa58e9bb04989c07c0db6f42f456ca5ac12163c691aadc500881247876/asiai-1.5.0.tar.gz"
+  sha256 "7f939670234e2edb79936861c90fcb71de4df08a922fe0f858b2f0a7eca6a4b2"
   license "Apache-2.0"
 
   depends_on "python@3.13"
